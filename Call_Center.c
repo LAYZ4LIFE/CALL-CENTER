@@ -7,7 +7,7 @@ void message(char *msg){
         printf("\n");
         printf(msg);
         delay(1);
-        printf(".");
+        printf("hello.");
         delay(1);
         printf(".");
         delay(1);
