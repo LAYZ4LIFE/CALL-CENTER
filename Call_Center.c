@@ -16,7 +16,7 @@ void message(char *msg){
         printf("\33[2K\033[A\r");
         if(c==1)
             break;
-        c++;
+        ++c;
     }
 }
 int main(){
